@@ -1,13 +1,13 @@
 (library
  (name compiler)
  (wrapped false)
+ (libraries camomile)
  (inline_tests)
  (preprocess
   (staged_pps
     ppx_import
     ppx_deriving.show
-    ppx_expect
- ))
+    ppx_expect))
  (flags
   (:standard -warn-error -A)))
 
