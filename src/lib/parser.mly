@@ -17,4 +17,8 @@
 %token                 LET
 %token                 IN
 
+%start <Absyn.lprogram> program
+
 %%
+
+(* write the missing production rules *)
